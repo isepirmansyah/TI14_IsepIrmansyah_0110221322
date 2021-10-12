@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 5px;
+        }
+        .bungkus {
+            width: 650px;
+            padding-bottom: 8px;
+            padding-left: 10px;
+            padding-top: 8px;
+            border: 2px solid black;
+            border-radius: 7px;
+            margin-left: 350px;
+        }
+        .button {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(245, 245, 245);
+            border-radius: 5px;
+            border: 2px solid rgb(126, 125, 125);
+        }
+    </style>
+</head>
+<body>
+    <div class="bungkus">
+        <h1>Black Goose Bistro | Pizza-on-Demond</h1><br>
+    <p>Our 12" woodfired pizzas are available for delivery. BUild your <br>
+        custom pizza and we'll deliver it within an hour.
+    </p><br>
+    <form action="">
+        <p>Your Information</p>
+        <table style="margin-left: -2px;">
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="add">Adress</label></td>
+                <td>:</td>
+                <td><input type="text" name="adres" id="add"></td>
+            </tr>
+            <tr>
+                <td><label for="tep">Telephone Number</label></td>
+                <td>:</td>
+                <td><input type="number" min="0" name="tlp" id="tep"></td>
+            </tr>
+            <tr>
+                <td><label for="eml">Email</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" id="eml"></td>
+            </tr>
+            <tr>
+                <td><label for="del">Delivery instruction</label></td>
+                <td>:</td>
+                <td></td>
+            </tr>
+        </table>
+        <textarea style="height: 100px; width: 400px; resize: none;" name="deliv" id="del" maxlength="400"></textarea><br>
+        <h3>Design Your Dream Pizza:</h3>
+        <p>Pizza Specs</p><br>
+        <label for="">Crust (Choose one) :</label><br>
+        <div style="margin-left: 15px;">
+            <input type="radio" name="crust" id=""> Classis White <br>
+            <input type="radio" name="crust" id=""> Multigrain <br>
+            <input type="radio" name="crust" id=""> Cheese-stuffed crust <br>
+            <input type="radio" name="crust" id=""> Gluten-free <br>
+        </div>
+        
+        <label for="">Toppings (Choose as many as you want) :</label> <br>
+        <div style="margin-left: 15px;">
+            <input type="checkbox" name="red"> Red Sauce <br>
+            <input type="checkbox" name="white"> White Sauce <br>
+            <input type="checkbox" name="mozza"> Mozzarella Cheese <br>
+            <input type="checkbox" name="pepp"> Pepperoni <br>
+            <input type="checkbox" name="mush"> Mushrooms <br>
+            <input type="checkbox" name="peppe"> Peppers <br>
+            <input type="checkbox" name="anch"> Anchovies
+        </div>
+        
+        <br>
+        <label for="">Number</label> <br>
+        <label for="">How many pizzas :</label>
+        <input type="number" name="" max="6" min="1" id=""><br>
+        <a href="pesansukses.html" class="button">Bring me a Pizza!</a>
+        <button style="width: 80px; height: 28px; border-radius: 5px;" type="reset">Reset</button>
+        
+    </form>
+    </div>
+</body>
+</html>

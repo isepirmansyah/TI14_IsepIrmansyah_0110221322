@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin-left: 50px;
+            margin-right: 100px;
+        }
+        .bol {
+            border: 2px solid rgb(112, 112, 112);
+            margin-top: 30px;
+            height: 35px;
+            background-color: rgb(245, 245, 245);
+        }
+        .hover:hover {
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <table class="bol" style="width: 100%;">
+        <tr>
+            <td class="hover" align="center">Home</td>
+            <td align="center">|</td>
+            <td class="hover" align="center">Generate Link</td>
+            <td align="center">|</td>
+            <td class="hover" align="center">Transaction History</td>
+            <td align="center">|</td>
+            <td class="hover" align="center">Policy</td>
+            <td align="center">|</td>
+            <td class="hover" align="center">Logout</td>
+        </tr>
+    </table>
+    <table style="width: 100%; margin-top: 30px;">
+        <tr>
+            <td rowspan="9">
+                <img style="vertical-align: top; margin-left: 0px; margin-top: -225px; margin-right: 50px;" src="mac.jpg" width="260px" height="225px" alt=""><br>
+                <button style="vertical-align: top; margin-right: 0px; margin-left: 0px; margin-top: -5px;">Upload Picture</button>
+            </td>
+            <td>Title Here</td>
+            <td>:</td>
+            <td><input style="margin-left: 10px; width: 400px;" type="text" value=""></td>
+        </tr>
+        <tr>
+            
+            <td style="vertical-align: top;">Description</td>
+            <td style="vertical-align: top;">:</td>
+            <td>
+                <textarea style="margin-top: 4px;margin-left: 10px; width: 400px; resize: none;" name="" id="" rows="10"></textarea>
+                
+            </td>
+        </tr>
+        <tr>
+           
+            <td>Account Number</td>
+            <td>:</td>
+            <td>
+                <input style="margin-top: 4px;margin-left: 10px; width: 400px;" type="number">
+                
+            </td>
+        </tr>
+        <tr>
+            
+            <td>Bank</td>
+            <td>:</td>
+            <td>
+                <select style=" margin-top: 4px;margin-left: 10px; width: 280px;" name="" id="">
+                    <option hidden>-- Pilih Bank --</option>
+                    <option value="">Mandiri</option>
+                    <option value="">BCA</option>
+                    <option value="">BRI</option>
+                    <option value="">CMB Niaga</option>
+                </select>
+                
+            </td>
+        </tr>
+        <tr>
+            
+            <td>Account Holder</td>
+            <td>:</td>
+            <td>
+                <input style="margin-top: 4px;margin-left: 10px; width: 330px;" type="text">
+            </td>
+        </tr>
+        <tr>
+            
+            <td style="vertical-align: top;">Transaction</td>
+            <td style="vertical-align: top;">:</td>
+            <td>
+                <input style="margin-top: 4px;margin-bottom: 5px;margin-left: 10px; width: 35px;" min="1" type="number"><br>
+                <small style="margin-left: 10px;">*if the Transaction is for 3 person, choose 3 from the drop-down list</small><br>
+                <div style="margin-left: -40px; color: green;">
+                    <input style="margin-top: 6px;margin-right: 0px;" type="checkbox" name="" id=""> Send to Mobile Phone <br>
+                    <input style="margin-top: 6px;margin-right: 0px;" type="checkbox" name="" id=""> Send to Email
+                </div>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            
+            <td>Send to Mobile Phone</td>
+            <td>:</td>
+            <td><input style="margin-left: 10px;width: 330px;" type="number" name=""></td>
+        </tr>
+        <tr>
+            
+            <td>Send to Email</td>
+            <td>:</td>
+            <td><input style="margin-top: 5px;margin-left: 10px;width: 330px;" type="email" name="" id=""></td>
+        </tr>
+        <tr>
+            
+            <td></td>
+            <td></td>
+            <td>
+                <button style="background-color: green; color: white; margin-left: 10px;margin-top: 30px;">Generate Nabr Link</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
