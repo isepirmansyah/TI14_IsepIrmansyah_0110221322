@@ -10,8 +10,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-   
+
 }
+
 .isi {
     width: 365px;
     grid-column: 1;
@@ -19,11 +20,13 @@
     border-radius: 8px 0px 0px 8px;
     background: rgb(238, 237, 238);
 }
+
 .isi2 {
     grid-column: 2/4;
     grid-row: 1;
-    
+
 }
+
 .grid2 {
     display: grid;
     grid-template-columns: 540px;
@@ -34,27 +37,31 @@
     height: 1185px;
     margin-top: 10px;
     border-radius: 10px;
-    
+
 }
+
 .prof {
-    background:white;
+    background: white;
     grid-row: 1/2;
     padding-bottom: 200px;
     border-radius: 10px 10px 0px 0px;
-    
+
 }
+
 .pen {
     background: white;
     grid-row: 2/5;
-   
-    
+
+
 }
+
 .pres {
-   background: white;
-   grid-row: 5/8;
-   border-radius: 0px 0px 10px 10px;
-  
+    background: white;
+    grid-row: 5/8;
+    border-radius: 0px 0px 10px 10px;
+
 }
+
 .jud {
     border: 1px solid blue;
     width: 200px;
@@ -66,22 +73,26 @@
     height: 45px;
     margin-top: 20px;
 }
+
 .cek {
     color: blue;
     font-weight: bold;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .tut {
     color: blue;
     font-weight: bold;
     font-size: 18px;
 }
+
 .did {
     margin-top: -5px;
     margin-left: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .kn {
     margin-left: 10px;
     font-size: 17px;
