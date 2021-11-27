@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anggi Novita Harahap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bungkus {
+            display: flex;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .bungkus>nav {
+            background: rgb(255, 192, 203);
+            order: -1;
+            width: 20%;
+        }
+
+        .con1 {
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        #con2>aside {
+            background: #03DAC5;
+            order: 2;
+        }
+
+        header,
+        footer {
+            background: rgb(240, 230, 140);
+            height: 40px;
+        }
+
+        header,
+        footer,
+        article,
+        nav,
+        aside {
+            padding: 1em;
+        }
+
+        #con2 {
+            display: flex;
+            flex: 1;
+        }
+
+        #con2>article {
+            flex: 1;
+            order: 1;
+        }
+
+        #con2>nav,
+        #con2>aside {
+            flex: 0 0 20vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bungkus">
+        <nav>Nav</nav>
+        <div class="con1">
+            <header>Header</header>
+            <div id="con2">
+                <article>Article</article>
+                <aside>Aside</aside>
+            </div>
+            <footer>Footer</footer>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seri Ani Ritonga</title>
+    <style>
+        * {
+            margin: 6px;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(248, 148, 148);
+        }
+
+        .dalam {
+            display: flex;
+            height: 97vh;
+            flex-direction: column;
+        }
+
+        #main {
+            display: flex;
+            flex: 1;
+        }
+
+        #main>aside {
+            background-color: #25aa9d;
+            margin-left: 0;
+            width: 25%;
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        #main>.dalam2 {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(202, 106, 106);
+            margin-right: 0;
+            margin-left: 15px;
+            width: 75%;
+        }
+
+        .con {
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            height: auto;
+            align-items: flex-end;
+        }
+
+        .center {
+            background-color: rgb(187, 187, 187);
+            margin: 10px;
+            width: 33%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .seriani {
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: white;
+        }
+
+        header,
+        footer {
+            background: #70cac1;
+            height: 80px;
+        }
+
+        header,
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dalam">
+        <header>
+            <h1>Header</h1>
+        </header>
+        <div id="main">
+            <aside>
+                <h1>Aside</h1>
+            </aside>
+            <div class="dalam2">
+                <div class="seriani">
+                    <h1>Article</h1>
+                </div>
+                <div class="con">
+                    <div class="center">
+                        <h1>Image</h1>
+                    </div>
+                    <div class="center">
+                        <h1>Image</h1>
+                    </div>
+                    <div class="center">
+                        <h1>Image</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </div>
+</body>
+
+</html>
